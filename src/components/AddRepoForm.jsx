@@ -71,7 +71,7 @@ function AddRepoForm({goalsId, onGoalAdded, goals}) {
         <Flex>
           <Input aria-label="repo name with owner" type="text" ref={urlRef} placeholder="owner/repo" />
           <InputButton type="submit" ref={submitBtnRef} primary>
-            Add
+            Add something
           </InputButton>
         </Flex>
       </CardPadding>
